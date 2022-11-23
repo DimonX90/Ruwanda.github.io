@@ -1000,24 +1000,6 @@ input:focus:-ms-input-placeholder {
 	display: none;
 }
 
-.menu-open span {
-	width: 0;
-}
-
-.menu-open::before {
-	top: calc(50% - 1px);
-	-webkit-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-}
-
-.menu-open::after {
-	bottom: calc(50% - 1px);
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	transform: rotate(45deg);
-}
-
 /*------------------------*/
 
 /*Main page style---------------------------*/
@@ -5146,6 +5128,25 @@ input:focus:-ms-input-placeholder {
 
 	.icon-menu span {
 		top: calc(50% - 1px);
+	}
+
+	.menu-open span {
+		max-width: 0px;
+	}
+
+	.menu-open::before {
+		/*top: calc(50% - 1px);*/
+		-webkit-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+	}
+
+	.menu-open::after {
+		bottom: 15px;
+		/*bottom: calc(50% - 1px);*/
+		-webkit-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		transform: rotate(45deg);
 	}
 
 	.food-systems::after {
