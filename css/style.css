@@ -2620,6 +2620,7 @@ input:focus:-ms-input-placeholder {
 }
 
 .nofound__image-wrapper {
+	background: url("../img/nut.webp") 0 0/100% 100% no-repeat;
 	position: relative;
 	z-index: 5;
 	width: 651px;
