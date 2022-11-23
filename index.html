@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>WRI Ruwanda</title>
+	<meta http http-equiv="conten type" content="text/html;charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,400&display=swap&_v=20221123232826"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<haeder id="header" class="header lock-padding">
+			<div class=" header__wrapper">
+				<div class="header__container _container">
+					<div class="header__body">
+						<a href="index.html" class=" header__logo">
+							<div>
+								<picture>
+									<source srcset="img/logocolor.webp" type="image/webp"><img class="header__image"
+										src="img/logocolor.png" alt="logo">
+								</picture>
+							</div>
+						</a>
+						<div class=" header__main">
+							<div class="header__menu menu">
+								<nav class="menu__body">
+									<ul class="menu__list">
+										<li class="menu__item">
+											<a id="link" href="about.html">About</a>
+										</li>
+										<li class="menu__item">
+											<a id="link" href="parthners.html">Parthners</a>
+										</li>
+										<li class="menu__item">
+											<a id="link" href="contacts.html">Contacts</a>
+										</li>
+									</ul>
+								</nav>
+
+							</div>
+						</div>
+						<div class="header__line"></div>
+						<div class="header__lang lang-item">
+							<select name="lang" class="lang-item__select ">
+								<option value="En" selected>En</option>
+								<option value="Uk">Uk</option>
+							</select>
+						</div>
+						<a href="#popup" class="button button_subscribe popup-link">Subscribe</a>
+						<button type="button" class="menu__icon icon-menu">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<!--Subscribe popUp                 -->
+			<div id="popup" class="popup">
+				<div class="popup__body _container">
+					<div class="popup__head">
+						<div class="popup__logo">
+							<picture>
+								<source srcset="img/pouplogo.webp" type="image/webp"><img class="popup__logo-image"
+									src="img/pouplogo.png" alt="logo">
+							</picture>
+						</div>
+						<a href="#header" class="popup__close-link close-popup">
+							<div class="popup__close-circle _icon-close"></div>
+						</a>
+					</div>
+					<div class="popup__content">
+						<div class="popup__form">
+							<div class="popup__title">Subscribe to Our Email List</div>
+							<div class="popup__text">Sign up to receive new information and announcements about the development
+								fund as
+								they become available, as well further details on the application process for SMEs in Rwanda,
+								which will
+								be available in early 2023.</div>
+							<form action="#" id="formSubscribe" class="popup__form-contact">
+
+								<div class="popup__form-block">
+									<div class="popup__form-contact_title">
+										<h3 class="popup__form-contact_inform">Contact Information</h3>
+										<h3 class="popup__form-contact_required">*Required</h3>
+									</div>
+									<div class="popup__form-name">
+										<div class="popup__form-item">
+											<input type="text" id="formFirstName" name="firstName" class="popup__form-name_first">
+											<div class="placeholder">First Name <span class="red">*</span></div>
+										</div>
+										<div class="popup__form-item">
+											<input type="text" id="formFirstName" name="lastName" class="popup__form-name_last">
+											<div class="placeholder _last">Last Name <span class="red">*</span></div>
+										</div>
+
+									</div>
+									<div class="popup__form-item">
+										<input type="text" id="formEmailAdress" name="emailAdress" class="popup__form-email">
+										<div class="placeholder">Email Adress <span class="red">*</span></div>
+									</div>
+									<div class="popup__form-item">
+										<div class="popup__form__select">
+											<select class="select-subscribe" name="country" id="formCountry">
+												<option value disabled selected>Country&nbsp&nbsp&nbsp
+												</option>
+												<option value="Africa">Africa</option>
+												<option value="Ukraine">Ukraine</option>
+												<option value="USA">USA</option>
+											</select>
+										</div>
+									</div>
+
+
+								</div>
+
+								<div class="popup__form-block">
+									<h3 class="popup__form-contact_title">
+										About Your Organization
+									</h3>
+									<div class="popup__form-item">
+										<input type="text" id="formOrganizationName" name="OrganizationName"
+											class="popup__form-email">
+										<div class="placeholder">Organization Name</div>
+									</div>
+									<div class="popup__form-item">
+										<div class="popup__form__select">
+											<select class="select-organization" name="typeOrganization" id="formTypeOrganization">
+												<option value disabled selected>Type of Organization
+												</option>
+												<option value="Organization1">Organization1</option>
+												<option value="Organization2">Organization2</option>
+												<option value="Organization3">Organization3</option>
+											</select>
+										</div>
+									</div>
+
+									<div class="popup__form-item">
+										<div class="popup__form__select">
+											<select class="select-area" name="foodSystem" id="formfoodSystem">
+												<option value disabled selected>Which area of the food system is your organization
+													most
+													active in?
+												</option>
+												<option value="Area1">Area1</option>
+												<option value="Area2">Area2</option>
+												<option value="Area3">Area3</option>
+											</select>
+										</div>
+									</div>
+
+
+								</div>
+
+							</form>
+						</div>
+						<div class="popup__form-bigimage">
+							<div class="popup__form-circle">
+								<picture>
+									<source srcset="img/track.webp" type="image/webp"><img class="popup__form-image-track"
+										src="img/track.png" alt="track">
+								</picture>
+							</div>
+							<div class="popup__form-image-leafer-right">
+								<picture>
+									<source srcset="img/oneleaf.webp" type="image/webp"><img src="img/oneleaf.png" alt="oneleaf">
+								</picture>
+							</div>
+							<div class="popup__form-image-leafe-left">
+								<picture>
+									<source srcset="img/oneleaf.webp" type="image/webp"><img src="img/oneleaf.png" alt="oneleaf">
+								</picture>
+							</div>
+							<div class="popup__form-image-clouds">
+								<picture>
+									<source srcset="img/Clouds.webp" type="image/webp"><img src="img/Clouds.png" alt="Clouds">
+								</picture>
+							</div>
+
+						</div>
+					</div>
+					<div class="popup__buttons">
+						<button form="formSubscribe" type="submit" class="popup__button-submit button">Subscribe</button>
+						<a href="#header" class="popup__nothanks close-popup">No thanks</a>
+					</div>
+
+				</div>
+			</div>
+			<!--                                         -->
+
+		</haeder>
+		<main class="page">
+
+			<!--First section - main-title-->
+			<section class="page__main-title main-title">
+				<div class="main-title__container">
+					<h2 class="main-title__title _mainTitle _container">
+						CIRCULAR FOOD SYSTEMS FOR RWANDA
+					</h2>
+				</div>
+			</section>
+			<!--                                           -->
+
+			<!--Second section - Food-Systems-->
+			<section class="page__food-systems food-systems">
+				<div class="food-systems__container _container ">
+					<div class="food-systems__content _animeItem">
+						<h2 class=" food-systems__title">
+							The Circular Food Systems for Rwanda program aims to transform Rwanda’s food system by 2024, to be
+							more circular and sustainable.
+						</h2>
+						<p class="food-systems__text">Food is fundamental to our health, environment, society and economy, but
+							today’s food system is wasteful, resource-intensive and polluting. </p>
+						<p class="food-systems__text">Roughly one-third of food produced globally is lost or wasted, which
+							amounts to about 1.3 billion tons per year. Meanwhile, 800 million people worldwide don’t have
+							enough to eat.</p>
+						<p class="food-systems__text">Building a circular economy for food, while operating within planetary
+							boundaries, will be crucial to supporting the world’s growing population—an expected 9.7 billion
+							people by 2050.</p>
+					</div>
+					<div class="food-systems__tabs tabs">
+						<div class="tabs__container">
+							<h3 class="tabs__title _animeItem"><span>1/3 of Food Gets Lost or Wasted in Rwanda</span></h3>
+							<div class="tabs__content tabs-content">
+								<div class="tabs-content__info">
+									<ul class="tabs-content__item-list  _animeItem">
+										<li class="tabs-content__item _active " id="tab1"><a href="#">Overview</a></li>
+										<li class="tabs-content__item" id="tab2"><a href="#">Production</a></li>
+										<li class="tabs-content__item" id="tab3"><a href="#">Distribution</a></li>
+										<li class="tabs-content__item" id="tab4"><a href="#">Consumption</a></li>
+										<li class="tabs-content__item" id="tab5"><a href="#">Waste</a></li>
+									</ul>
+									<div class="tabs-content__articles _active" id="tab1">
+										<p class="tabs-content__text">The industrialization of agriculture has led to over 75% of
+											food coming from just 12 plants and five animal species. </p>
+										<p class="tabs-content__text">To meet future food demands, it is vital that we change what
+											we
+											grow and how we grow it through a wider variety of regenerative agricultural options.
+										</p>
+									</div>
+									<div class="tabs-content__articles " id="tab2">
+										<p class="tabs-content__text">2The industrialization of agriculture has led to over 75% of
+											food coming from just 12 plants and five animal species. </p>
+										<p class="tabs-content__text">To meet future food demands, it is vital that we change what
+											we
+											grow and how we grow it through a wider variety of regenerative agricultural options.
+										</p>
+									</div>
+									<div class="tabs-content__articles " id="tab3">
+										<p class="tabs-content__text">3The industrialization of agriculture has led to over 75% of
+											food coming from just 12 plants and five animal species. </p>
+										<p class="tabs-content__text">To meet future food demands, it is vital that we change what
+											we
+											grow and how we grow it through a wider variety of regenerative agricultural options.
+										</p>
+									</div>
+									<div class="tabs-content__articles" id="tab4">
+										<p class="tabs-content__text">4The industrialization of agriculture has led to over 75% of
+											food coming from just 12 plants and five animal species. </p>
+										<p class="tabs-content__text">To meet future food demands, it is vital that we change what
+											we
+											grow and how we grow it through a wider variety of regenerative agricultural options.
+										</p>
+									</div>
+									<div class="tabs-content__articles" id="tab5">
+										<p class="tabs-content__text">5The industrialization of agriculture has led to over 75% of
+											food coming from just 12 plants and five animal species. </p>
+										<p class="tabs-content__text">To meet future food demands, it is vital that we change what
+											we
+											grow and how we grow it through a wider variety of regenerative agricultural options.
+										</p>
+									</div>
+								</div>
+								<div class="tabs-content__pineapple tabs-pineapple">
+									<div class="tabs-pineapple__circles _animeItem">
+										<div class="tabs-pineapple__two-circle">
+											<div class="tabs-pineapple__circle">
+												<picture>
+													<source srcset="img/leftcircle.webp" type="image/webp"><img
+														class="tabs-pineapple__circle-image" src="img/leftcircle.png" alt="cicle">
+												</picture>
+											</div>
+											<div class="tabs-pineapple__circle">
+												<picture>
+													<source srcset="img/rightcircle.webp" type="image/webp"><img
+														class="tabs-pineapple__circle-image" src="img/rightcircle.png" alt="corn">
+												</picture>
+											</div>
+										</div>
+										<div class="tabs-pineapple__one-circle">
+											<div class="tabs-pineapple__circle">
+												<picture>
+													<source srcset="img/downcircle.webp" type="image/webp"><img
+														class="tabs-pineapple__circle-image" src="img/downcircle.png" alt="goods">
+												</picture>
+											</div>
+										</div>
+									</div>
+									<div class="tabs-pineapple__triangle">
+										<picture>
+											<source srcset="img/triangle.webp" type="image/webp"><img src="img/triangle.png"
+												alt="triangle">
+										</picture>
+									</div>
+									<div class="tabs-pineapple__leavse _animeItem">
+										<picture>
+											<source srcset="img/Leaves.webp" type="image/webp"><img
+												class="tabs-pineapple__leavse-image" src="img/Leaves.png" alt="leaves">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="tabs__footer _animeItem">
+								<div class="tabs__arrow _icon-wArrow"></div>
+								<p class="tabs__text">800 million people worldwide don’t have enough to eat.</p>
+								<button class="button button-tabs">Join the Solution</button>
+							</div>
+						</div>
+						<div class="tabs__controls">
+
+							<button type="button" class="tabs__leftarrow _icon-Down_Arrow_3"></button>
+							<button type="button" class="tabs__rightarrow _icon-Down_Arrow_3"></button>
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--                                           -->
+
+			<!--Third section How                            -->
+			<section class="page__how how">
+				<div class="how__container _container">
+					<div class="how__body">
+						<div class="how__logo _animeItem">
+							<picture>
+								<source srcset="img/smalllogo.webp" type="image/webp"><img class="how__logo-image"
+									src="img/smalllogo.png" alt="logo">
+							</picture>
+						</div>
+						<h2 class="how__title _title _animeItem">How will this program foster the growth of circular food
+							practices in
+							Rwanda?
+						</h2>
+						<p class="how__text _text _animeItem">Circular Food Systems for Rwanda aims to put these principles
+							into
+							practice. A
+							development fund that will provide technical assistance to small and medium-sized enterprises
+							(SMEs)
+							in implementing a circular business model or improving upon their current practices. At the same
+							time,
+							the project aims to create an enabling policy environment to catalyze system transformation.
+						</p>
+						<a href="about.html" class="button button__linktoabout _animeItem">Learn More About How the Program
+							Will Work</a>
+					</div>
+				</div>
+			</section>
+			<!--                                               -->
+
+			<!--Fours section Realazing-->
+			<section class="page__realazing realazing">
+				<div class="realazing__cont">
+					<div class="realazing__body">
+						<div class="realazing__images _animeItem">
+							<picture>
+								<source srcset="img/wooman.webp" type="image/webp"><img src="img/wooman.png" alt="wooman"
+									class="realazing__wooman-image">
+							</picture>
+							<picture>
+								<source srcset="img/leaveleft.webp" type="image/webp"><img class="realazing__leaf-image"
+									src="img/leaveleft.png" alt="leaf">
+							</picture>
+						</div>
+						<div class="realazing__content _animeItem">
+							<h2 class="realazing__title _title">
+								Realizing the goal of building a circular economy is a team effort.
+							</h2>
+							<p class="realazing__text _text">Circular Food Systems for Rwanda is a partnership between several
+								regional and global organizations.</p>
+							<a href="parthners.html" class="button realazing__button">View Program Partners</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--                  -->
+
+			<!--Fives section stayInformed-->
+			<section class="page__stayInformed stayInformed">
+				<div class="stayInformed__cont">
+					<div class="stayInformed__body">
+						<div class="stayInformed__content _animeItem">
+							<h2 class="stayInformed__title _title">
+								Stay informed on the latest from Circular Food Systems for Rwanda.
+							</h2>
+							<p class="stayInformed__text _text">Subscribe to our mailing list to receive new information and
+								announcements about the development fund as they become available, as well further details on
+								the
+								application process for SMEs in Rwanda, which will be available in early 2023.</p>
+							<a href="#popup" class="button stayInformed__button popup-link">Subscribe Now</a>
+						</div>
+						<div class="stayInformed__images _animeItem">
+							<div class="stayInformed__image-wrapper">
+								<picture>
+									<source srcset="img/man.webp" type="image/webp"><img class="stayInformed__man-image"
+										src="img/man.png" alt="man">
+								</picture>
+							</div>
+							<div class="stayInformed__green-circle"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--                               -->
+			<div id="cookie_notification">
+				<p>This website uses cookies to provide you with an improved user experience. By continuing to browse this
+					site you
+					consent to the use of cookies and similar technologies. For further details please visit our privacy
+					policy.</p>
+				<button class="button cookie_accept">Accept All</button>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container _container">
+				<div class="footer__about footer-about">
+					<div class="footer__content _animeItem">
+						<div class="footer-about__subtitle footer__subtitle">
+							<h3>About World Resources Institute</h3>
+						</div>
+						<div class="footer-about__article footer__article">
+							<p>WRI is a global research organization that works with governments, businesses, multilateral
+								institutions
+								and civil society groups to develop practical solutions to improve lives and ensure nature can
+								thrive
+							</p>
+						</div>
+					</div>
+					<div class="footer-about__world-res-inst">
+						<a href="#">
+							<img class="footer-about__image footer__image" src="img/world-res-inst.png"
+								alt="world resources institute">
+						</a>
+					</div>
+				</div>
+				<div class="footer__project-Support footer-project-Support">
+					<div class="footer__content _animeItem">
+						<div class="footer-project-Support__subtitle footer__subtitle">
+							<h3>Project Support</h3>
+						</div>
+						<div class="footer-project-Support__article footer__article">
+							<p> The project is supported by the IKEA Foundation and led by WRI. It is delivered in close
+								partnership
+								with the Government of Rwanda.</p>
+						</div>
+					</div>
+					<div class="footer-project-Support__ikea">
+						<a href="#">
+							<img class="footer-project-Support__image footer__image _ikea" src="img/ikea.png"
+								alt="world resources institute">
+						</a>
+					</div>
+				</div>
+				<div class="footer__questions">
+					<div class="footer__content _animeItem">
+						<div class="footer-questionst__subtitle footer__subtitle">
+							<h3>Questions?</h3>
+						</div>
+						<div class="footer-questions__article footer__article">
+							<p>If you have a general or media inquiry, we’re here to help.</p>
+						</div>
+					</div>
+					<div class="footer-questions__contact">
+						<a href="contacts.html" type="button" class="button button_contact">Contact Us</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__end">
+				<div class="footer__allrights">
+					<a href="#" class="footer__allrights-logo _icon-man"></a>
+					<p class="footer__allrights-text">2022 WRI Ocean Panel. All Rights Reserved.</p>
+				</div>
+				<div class="footer__socials socials">
+					<a href="#" class="socials__item _icon-twitter"></a>
+					<a href="#" class="socials__item _icon-Facebook"></a>
+					<a href="#" class="socials__item _icon-youtube">
+						<div class="_icon-youtubearrow"></div>
+					</a>
+					<a href="#" class="socials__item">
+						<picture>
+							<source srcset="img/instagram.webp" type="image/webp"><img class="socials__instagramm"
+								src="img/instagram.png" alt="instagram">
+						</picture>
+					</a>
+					<a href="#" class="socials__item _icon-linkedin"></a>
+				</div>
+				<div class="footer__privacy-policy footer-privacy-policy">
+					<p class="footer-privacy-policy__text">Privacy Policy</p>
+					<a href="#" class="footer-privacy-policy__link">
+						<div class="footer-privacy-policy__circle _icon-arrowUp"></div>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20221123232826"></script>
+</body>
+
+</html>
